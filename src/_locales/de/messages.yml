@@ -7,6 +7,9 @@ buttonClose:
 buttonConfirmInstallation:
   description: Button to confirm installation of a script.
   message: Installation bestätigen
+buttonConfirmReinstallation:
+  description: Button to confirm re-installation when the script is already installed.
+  message: Re-Installation bestätigen
 buttonDisable:
   description: Button to disable a script.
   message: Deaktivieren
@@ -280,6 +283,9 @@ labelAutoUpdate:
 labelBadge:
   description: Label for option to show number on badge.
   message: 'Auf dem Symbol anzeigen: '
+labelBadgeColors:
+  description: Label for option group to set badge colors.
+  message: 'Badge-Farben:'
 labelBadgeNone:
   description: Option to display nothing on badge.
   message: nichts
@@ -409,6 +415,11 @@ labelPopupSort:
 labelPrivacyPolicy:
   description: Label of link to privacy policy
   message: Datenschutzrichtlinie
+labelReinstall:
+  description: >-
+    Shown in the title of the confirm page while trying to install a script
+    that's already installed.
+  message: Skript re-installieren
 labelRelated:
   description: Label of related links.
   message: 'Verwandte Links: '
@@ -612,6 +623,9 @@ msgNewVersion:
 msgNoUpdate:
   description: Message shown when there is no new version of a script.
   message: Keine Aktualisierung gefunden.
+msgSameCode:
+  description: Shown inside the title when re-installing a script that's already installed.
+  message: (identischer Code)
 msgSavedBlacklist:
   description: Message shown when blacklist are saved.
   message: Blacklist wurde aktualisiert.
@@ -691,6 +705,14 @@ sideMenuInstalled:
 sideMenuSettings:
   description: 'Side menu: Settings'
   message: Einstellungen
+titleBadgeColor:
+  description: Tooltip for option to set badge color.
+  message: Normale Badge-Farbe
+titleBadgeColorBlocked:
+  description: Tooltip for option to set badge color of non-injectable tabs.
+  message: >-
+    Badge-Farbe, wenn die Seite uninjizierbar ist (geblacklistet oder nicht
+    unterstützt)
 titleScriptUpdated:
   description: Notification title for script updates.
   message: Aktualisierung
